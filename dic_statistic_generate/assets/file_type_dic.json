@@ -1,0 +1,61 @@
+{
+    "DirPath": ["目录", "目录路径", "dir", "directory", "//", "///" ],
+    "Password": {
+        "WeekPasswd": {
+            "DeviceWeekPasswd": ["设备弱口令"]
+        }
+    },
+    "Fuzz": {
+        "FileFuzz": ["文件*"],
+        "ApiFuzz": ["接口*"]
+    },
+    "Sql": ["sql字典"],
+    "UserName": {
+        "SystemUser": {
+            "LinuxSysUser": ["Linux系统账户"]
+        }
+    },
+    "Email": ["邮件"],
+    "Phone": ["手机号"],
+    "CTF_Belong": ["CTF专属"],
+    "DNS": ["域名服务器"],
+    "MiddleWare": {
+        "spring": ["spring"],
+        "Weblogic": ["Weblogic"],
+        "Nginx": ["Nginx"],
+        "Apache": ["Apache"],
+        "Mysql": ["Mysql"],
+        "Postgresql": ["Postgresql"],
+        "Redis": ["Redis"],
+        "Oracle": ["Oracle"],
+        "Tomcat": ["Tomcat"],
+        "Mongodb": ["Mongodb"]
+    },
+    "Other": ["非中间件", "非常规框架", "工具", "键盘组合"],
+    "Protocol": {
+        "Telnet": ["Telnet"],
+        "Ssh": ["Ssh"],
+        "Vnc": ["Vnc"],
+        "Pop3": ["Pop3"],
+        "Smb": ["Smb"],
+        "Ldap": ["Ldap"],
+        "FTP": ["FTP"]
+    },
+    "Tools": ["工具内置整合"],
+    "Language": {
+        "Php": ["Php"],
+        "Jsp": ["Jsp"]
+    },
+    "Waf": ["防火墙"],
+    "Vulner": {
+        "Xss": ["Xss"],
+        "SSrf": ["SSrf"]
+    },
+    "Domain": ["域名", "domain"],
+    "SubDomain": ["子域名", "subdomain"],
+    "Request": {
+        "HttpHead": ["http header", "http"],
+        "UserAgent": ["ua头", "user-agent"]
+    },
+    "BackDoor": ["后门", "back"]
+}
