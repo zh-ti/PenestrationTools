@@ -3,6 +3,7 @@ import requests
 
 class Api:
     base_url = "https://subdomains.whoisxmlapi.com/api/v1"
+    "?apiKey=at_weRRUsIZtIaaxGzvAql8WUc2XaJLk&domainName=amazon.com"
     apiKey = None
 
     def __init__(self, apiKey):
@@ -18,7 +19,7 @@ class Api:
                 for item in data:
                     subdomains.add(item['domain'])
             else:
-                print(f"请求错误，响应代码【{res.status_code}】, 原因【{res.reason}】")
+                print(f"请求错误，响应代码【{res.status_code}】, 原因【{res.reason}】: {res.content}")
         except Exception as e:
             print(f"请求失败：\n{e.args[0]}")
         return subdomains
